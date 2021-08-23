@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+     
+
+    <title>life</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700,900|Rubik:300,400,500" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/vendor/owl.carousel.min.css"/>
+    <link rel="stylesheet" href="css/vendor/owl.theme.default.min.css"/>
+    <link rel="stylesheet" href="css/custom.css">
+
+    <!--[if lt IE 9]>
+    <script src="js/vendor/html5shiv.min.js"></script>
+    <script src="js/vendor/respond.min.js"></script>
+    <![endif]-->
+
+    <script src="https://use.fontawesome.com/9b701ba3c8.js"></script>
+    <script src="js/vendor/jquery.min.js"></script>
+    <script src="js/vendor/owl.carousel.min.js"></script>
+</head>
+<body>
+
+<header id="header">
+    <div class="top-bar">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6 col-xs-4">
+                    <div class="top-number">
+                        <p>
+                            <i class="fa fa-phone-square"></i> +6757896395125
+                        </p>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-xs-8">
+                    <div class="social">
+                        <ul class="social-share">
+                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                            <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+                            <li><a href="#"><i class="fa fa-skype"></i></a></li>
+                        </ul>
+                        <div class="search">
+                            <form role="form">
+                                <input type="text" class="search-form" autocomplete="off" placeholder="search">
+                                <i class="fa fa-search"></i>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <nav class="navbar navbar-inverse" role="banner">
+        <div class="container">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="index.html">harmony</a>
+            </div>
+
+            <div class="navbar-collapse navbar-right">
+                <ul class="nav navbar-nav flex-row">
+                    <li class="active"><a href="index.html">Main</a></li>
+                    <li><a href="contact.html">Contacts</a></li>
+                    <li><a href="terms.html">Terms and conditions</a></li>
+                    <li><a href="policy.html">Privacy policy</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+</header>
+
+<style>
+    /*************************
+*******Header******
+**************************/
+
+    #header .search {
+        display: inline-block;
+    }
+
+    #header .navbar > .container .navbar-brand {
+        margin-left: 0;
+    }
+
+    #header .top-bar {
+        padding: 10px 0;
+        background: #191919;
+        border-bottom: 1px solid #222;
+        line-height: 28px;
+    }
+
+    .top-number {
+        color: #fff;
+    }
+
+    .top-number p {
+        margin: 0
+    }
+
+    #header .social {
+        text-align: right;
+    }
+
+    #header .social-share {
+        display: inline-block;
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    ul.social-share li {
+        display: inline-block;
+    }
+
+    ul.social-share li a {
+        display: inline-block;
+        color: #fff;
+        background: #404040;
+        width: 25px;
+        height: 25px;
+        line-height: 25px;
+        text-align: center;
+        border-radius: 2px;
+    }
+
+    ul.social-share li a:hover {
+        background: #c52d2f;
+        color: #fff;
+    }
+
+    #header .search i {
+        color: #fff;
+    }
+
+    #header input.search-form {
+        background: transparent;
+        border: 0 none;
+        width: 60px;
+        padding: 0 10px;
+        color: #FFF;
+        -webkit-transition: all 400ms;
+        -moz-transition: all 400ms;
+        -ms-transition: all 400ms;
+        -o-transition: all 400ms;
+        transition: all 400ms;
+    }
+
+    #header input.search-form::-webkit-input-placeholder {
+        color: transparent;
+    }
+
+    #header input.search-form:hover::-webkit-input-placeholder {
+        color: #fff;
+    }
+
+    #header  input.search-form:hover {
+        width: 180px;
+    }
+
+    #header .navbar-brand {
+        padding: 0;
+        margin: 0;
+    }
+
+    #header .navbar {
+        border-radius: 0;
+        margin-bottom: 0;
+        background: #151515;
+        padding: 15px 0;
+        padding-bottom: 0;
+    }
+
+    #header .navbar-nav {
+        margin-top: 12px;
+    }
+
+    #header .navbar-nav > li {
+        margin-left: 35px;
+        padding-bottom: 28px;
+    }
+
+    #header .navbar-inverse .navbar-nav > li > a {
+        padding: 5px 12px;
+        margin: 0;
+        border-radius: 3px;
+        color: #fff;
+        line-height: 24px;
+        display: inline-block;
+    }
+
+    #header .navbar-inverse .navbar-nav > li > a:hover {
+        background-color: #c52d2f;
+        color: #fff;
+    }
+
+    #header .navbar-inverse {
+        border: none;
+    }
+
+    #header .navbar-inverse .navbar-brand {
+        font-size: 36px;
+        line-height: 50px;
+        color: #fff;
+    }
+
+    #header .navbar-inverse .navbar-nav > .active > a,
+    #header .navbar-inverse .navbar-nav > .active > a:hover,
+    #header .navbar-inverse .navbar-nav > .active > a:focus,
+    #header .navbar-inverse .navbar-nav > .open > a,
+    #header .navbar-inverse .navbar-nav > .open > a:hover,
+    #header .navbar-inverse .navbar-nav > .open > a:focus {
+        background-color: #c52d2f;
+        color: #fff;
+    }
+
+    #header .navbar-inverse .navbar-nav .dropdown-menu {
+        background-color: rgba(0, 0, 0, .85);
+        -webkit-box-shadow: 0 3px 8px rgba(0, 0, 0, 0.125);
+        -moz-box-shadow: 0 3px 8px rgba(0, 0, 0, 0.125);
+        box-shadow: 0 3px 8px rgba(0, 0, 0, 0.125);
+        border: 0;
+        padding: 0;
+        margin-top: 0;
+        border-top: 0;
+        border-radius: 0;
+        left: 0;
+    }
+
+    #header .navbar-inverse .navbar-nav .dropdown-menu:before {
+        position: absolute;
+        top: 0;
+    }
+
+    #header .navbar-inverse .navbar-nav .dropdown-menu > li > a {
+        padding: 8px 15px;
+        color: #fff;
+    }
+
+    #header .navbar-inverse .navbar-nav .dropdown-menu > li:hover > a,
+    #header .navbar-inverse .navbar-nav .dropdown-menu > li:focus > a,
+    #header .navbar-inverse .navbar-nav .dropdown-menu > li.active > a {
+        background-color: #c52d2f;
+        color: #fff;
+    }
+
+    #header .navbar-inverse .navbar-nav .dropdown-menu > li:last-child > a {
+        border-radius: 0 0 3px 3px;
+    }
+
+    #header .navbar-inverse .navbar-nav .dropdown-menu > li.divider {
+        background-color: transparent;
+    }
+
+    #header .navbar-inverse .navbar-collapse,
+    #header .navbar-inverse .navbar-form {
+        border-top: 0;
+        padding-bottom: 0;
+    }
+</style>
+
+<section class="">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 offset-md-2">
+                <div class="p-30 mb-30 card-view">
+                    <img src="./assets/images/brenda-godinez-_zn_7fzol1w-unsplash.jpg" alt="">
+                    <h3 class="mt-30 mb-5"><b>Make-up like a star. Ekaterina Klimova</b></h3>
+
+                    <p><strong></strong> photos from the service See how make-up changes the appearance of a 40-year-old actress, in one case reducing, and in another adding to her years. If you have a similar type of appearance, use these tips: make-up artist!Hair colorFramed by dark hair, bluish-green eyes look spectacular! Neither blonde, nor Raven color does not fit them as well as chestnut.EyesIt is better to tint your lashes with brown ink instead of black-it is perfectly combined with aquamarine color the eye. As for the eyeliner, it is better to mark the lash growth line with a soft, well-sharpened pencil, slightly shading the outer corner of the eye.SkinThe Foundation should be as close to the skin as possible in color. The main tones are neutral and beige. Lighter honey is able to transform a face into a mask. For evening makeup, the Foundation can be a shade darker than the natural skin color.JowlsBlush is better to use warm openkov-coral, peach. At the same time, they should be carefully shaded so as not to get an unnatural, doll-like effect.LipsTo do this focus on the eyes, it is better to make up your lips softly (utterly) using Madrasas (pastel shades). Also suitable are pastel shades that will emphasize the eyebrows.Wrong:As for the wrong, there are several good options: pastel pink, primrose green, bronzed hair, bronzed skin. Such as tones up the complexion and make up nicely for the skin. Unfortunately, they are out of fashion at the moment. If you are in your 40s and you want to look 40, then get creative and create new cosmetics. This article is for informational purposes only. Please consult your doctor before using this information.If you liked our article, we will be happy if you share it on your social media pages.</p>
+                </div>
+            </div>
+        </div><!-- row -->
+    </div><!-- container -->
+</section>
+
+<style>
+    .card-view{ border-radius: 3px; overflow: hidden; box-shadow: 1px 1px 4px rgba(0,0,0,.10);  background: #fff;
+        padding: 30px; }
+
+
+    /* RESPONSIVE */
+
+    @media only screen and (max-width: 575px) {
+
+        div.card-view{ padding: 20px!important; }
+
+    }
+</style>
+
+<footer class="footer">
+    <div class="footer_top">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-8">
+                    <div class="menu_links">
+                        <ul>
+                            <li><a href="contact.html">Contacts</a></li>
+                            <li><a href="terms.html">Terms and conditions</a></li>
+                            <li><a href="policy.html">Privacy policy</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="socail_links">
+                        <ul>
+                            <li><a href="#"> <i class="fa fa-facebook"></i> </a></li>
+                            <li><a href="#"> <i class="fa fa-twitter"></i> </a></li>
+                            <li><a href="#"> <i class="fa fa-instagram"></i> </a></li>
+                            <li><a href="#"> <i class="fa fa-google-plus"></i> </a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="copy-right_text">
+        <div class="container">
+            <div class="footer_border"></div>
+            <div class="row">
+                <div class="col-xl-12">
+                    <p></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<style>
+    .footer {
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    /* line 6, ../../Arafath/CL/CL October/218 PORTFOLIO/HTML/scss/_footer.scss */
+    .footer .footer_top {
+        padding-top: 100px;
+        padding-bottom: 100px;
+        background: #001D38;
+    }
+
+    @media (max-width: 767px) {
+        /* line 6, ../../Arafath/CL/CL October/218 PORTFOLIO/HTML/scss/_footer.scss */
+        .footer .footer_top {
+            padding-top: 50px;
+            padding-bottom: 30px;
+        }
+    }
+
+    @media (min-width: 768px) and (max-width: 991px) {
+        /* line 6, ../../Arafath/CL/CL October/218 PORTFOLIO/HTML/scss/_footer.scss */
+        .footer .footer_top {
+            padding-top: 50px;
+            padding-bottom: 60px;
+        }
+    }
+
+    /* line 20, ../../Arafath/CL/CL October/218 PORTFOLIO/HTML/scss/_footer.scss */
+    .footer .footer_top .menu_links ul li {
+        display: inline-block;
+        margin-right: 46px;
+    }
+
+    @media (max-width: 767px) {
+        /* line 20, ../../Arafath/CL/CL October/218 PORTFOLIO/HTML/scss/_footer.scss */
+        .footer .footer_top .menu_links ul li {
+            margin-right: 20px;
+        }
+    }
+
+    /* line 26, ../../Arafath/CL/CL October/218 PORTFOLIO/HTML/scss/_footer.scss */
+    .footer .footer_top .menu_links ul li a {
+        color: #fff;
+        font-size: 15px;
+        font-weight: 500;
+    }
+
+    /* line 30, ../../Arafath/CL/CL October/218 PORTFOLIO/HTML/scss/_footer.scss */
+    .footer .footer_top .menu_links ul li a:hover {
+        color: #615CFD;
+    }
+
+    /* line 38, ../../Arafath/CL/CL October/218 PORTFOLIO/HTML/scss/_footer.scss */
+    .footer .copy-right_text {
+        padding-bottom: 30px;
+        background: #001D38;
+    }
+
+    /* line 41, ../../Arafath/CL/CL October/218 PORTFOLIO/HTML/scss/_footer.scss */
+    .footer .copy-right_text .footer_border {
+        padding-bottom: 30px;
+        border-top: 1px solid #334A60;
+    }
+
+    /* line 45, ../../Arafath/CL/CL October/218 PORTFOLIO/HTML/scss/_footer.scss */
+    .footer .copy-right_text .copy_right {
+        font-size: 13px;
+        color: #C7C7C7;
+        margin-bottom: 0;
+        font-weight: 400;
+    }
+
+    @media (max-width: 767px) {
+        /* line 45, ../../Arafath/CL/CL October/218 PORTFOLIO/HTML/scss/_footer.scss */
+        .footer .copy-right_text .copy_right {
+            font-size: 13px;
+        }
+    }
+
+    /* line 53, ../../Arafath/CL/CL October/218 PORTFOLIO/HTML/scss/_footer.scss */
+    .footer .copy-right_text .copy_right a {
+        color: #5DB2FF;
+    }
+
+    /* line 58, ../../Arafath/CL/CL October/218 PORTFOLIO/HTML/scss/_footer.scss */
+    .footer .socail_links {
+        text-align: right;
+    }
+
+    @media (max-width: 767px) {
+        /* line 58, ../../Arafath/CL/CL October/218 PORTFOLIO/HTML/scss/_footer.scss */
+        .footer .socail_links {
+            text-align: left;
+            margin-top: 30px;
+        }
+    }
+
+    /* line 67, ../../Arafath/CL/CL October/218 PORTFOLIO/HTML/scss/_footer.scss */
+    .footer .socail_links ul li {
+        display: inline-block;
+    }
+
+    /* line 70, ../../Arafath/CL/CL October/218 PORTFOLIO/HTML/scss/_footer.scss */
+    .footer .socail_links ul li a {
+        color: #fff;
+        width: 40px;
+        height: 40px;
+        display: inline-block;
+        text-align: center;
+        background: transparent;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        border-radius: 50%;
+        line-height: 40px !important;
+        margin-right: 7px;
+        color: #FFFFFF;
+        line-height: 40px !important;
+        border: 1px solid #334A60;
+        font-size: 15px;
+    }
+
+    /* line 84, ../../Arafath/CL/CL October/218 PORTFOLIO/HTML/scss/_footer.scss */
+    .footer .socail_links ul li a:hover {
+        color: #fff !important;
+        background: #615CFD;
+        border: 1px solid #615CFD;
+    }
+</style>
